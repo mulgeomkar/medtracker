@@ -1,0 +1,16 @@
+# Node modules
+frontend/node_modules/
+backend/node_modules/
+
+# Logs
+*.log
+
+# DB file
+medtrack.db
+
+# Env/config
+.env
+
+# Build folders (if any)
+frontend/build/
+backend/dist/
