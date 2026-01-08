@@ -1,15 +1,9 @@
-# MedTracker
+# ⚕️MedTracker
 
 MedTracker is a full-stack web application designed to streamline healthcare interactions between patients, doctors, 
 and pharmacists. It provides specialized dashboards for different user roles to manage prescriptions, patient records, and pharmacy inventory.
 
-## Project Structure
-
-The project is divided into two main parts:
-- **Backend**: A Node.js/Express server using SQLite for data storage.
-- **Frontend**: A React-based web application for the user interface.
-
-## Features
+## 🏥Features
 
 - **Authentication**: Secure signup and signin for three roles: Patient, Doctor, and Pharmacist.
 - **Doctor Dashboard**: Allows doctors to view patient history and create digital prescriptions.
@@ -20,13 +14,13 @@ The project is divided into two main parts:
 
 
 
-## Getting Started
+## 👨‍💻Getting Started
 
 ### Prerequisites
 - Node.js (v14 or higher recommended)
 - npm (Node Package Manager)
 
-### Installation
+### ➡️Installation
 
 1. **Clone the repository**:
    ```bash
@@ -34,14 +28,14 @@ The project is divided into two main parts:
    cd medtracker
    ```
 
-   Setup Backend:
+ 2.  **Setup Backend**:
 
 ```
 
 cd backend
 npm install
 ```
-### Setup Frontend:
+3. **Setup Frontend**:
 
 ```
 
@@ -49,7 +43,7 @@ cd ../frontend
 npm install
 
 ```
-Running the Application
+4. **Running the Application**:
 Start the Backend Server: From the backend directory:
 ```
 
