@@ -25,7 +25,7 @@ and pharmacists. It provides specialized dashboards for different user roles to 
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/mulgeomkar/medtracker
-   cd medtracker
+   cd medtrack
    ```
 
  2.  **Setup Backend**:
