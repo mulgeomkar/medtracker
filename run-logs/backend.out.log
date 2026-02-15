@@ -1,0 +1,357 @@
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/flywaydb/maven-metadata.xml
+Progress (1): 249 BProgress (2): 249 B | 398 BProgress (3): 249 B | 398 B | 255 B                                   Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/maven-metadata.xml (398 B at 353 B/s)
+Progress (3): 249 B | 255 B | 234 B                                   Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/maven-metadata.xml (249 B at 220 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/liquibase/maven-metadata.xml
+Downloaded from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/maven-metadata.xml (255 B at 225 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/maven-metadata.xml
+Downloaded from central: https://repo.maven.apache.org/maven2/org/flywaydb/maven-metadata.xml (234 B at 205 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Progress (1): 375 BProgress (2): 375 B | 243 BProgress (3): 375 B | 243 B | 242 B                                   Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/maven-metadata.xml (375 B at 6.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Downloaded from central: https://repo.maven.apache.org/maven2/org/liquibase/maven-metadata.xml (243 B at 3.8 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/maven-metadata.xml (242 B at 3.9 kB/s)
+Progress (1): 4.6 kBProgress (1): 10 kB Progress (1): 14 kBProgress (2): 14 kB | 3.1 kBProgress (2): 14 kB | 8.0 kBProgress (2): 14 kB | 8.0 kBProgress (2): 14 kB | 13 kB Progress (2): 14 kB | 17 kBProgress (2): 14 kB | 20 kB                           Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 140 kB/s)
+Progress (1): 21 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (21 kB at 45 kB/s)
+[INFO] 
+[INFO] -------------------< com.medtrack:medtrack-backend >--------------------
+[INFO] Building MedTrack Backend 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.0:run (default-cli) > test-compile @ medtrack-backend >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ medtrack-backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ medtrack-backend ---
+[INFO] Changes detected - recompiling the module! :input tree
+[INFO] Compiling 28 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ medtrack-backend ---
+[INFO] skip non existing resourceDirectory c:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ medtrack-backend ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot:3.2.0:run (default-cli) < test-compile @ medtrack-backend <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.0:run (default-cli) @ medtrack-backend ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2026-02-15 15:19:20 - Starting MedtrackApplication using Java 23.0.2 with PID 3304 (c:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\backend\target\classes started by Omkar Mulge in c:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\backend)
+2026-02-15 15:19:20 - Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-02-15 15:19:20 - No active profile set, falling back to 1 default profile: "default"
+2026-02-15 15:19:20 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-15 15:19:20 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-15 15:19:22 - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-15 15:19:22 - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2026-02-15 15:19:22 - Finished Spring Data repository scanning in 225 ms. Found 7 MongoDB repository interfaces.
+2026-02-15 15:19:25 - Tomcat initialized with port 8080 (http)
+2026-02-15 15:19:25 - Starting service [Tomcat]
+2026-02-15 15:19:25 - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-02-15 15:19:25 - Initializing Spring embedded WebApplicationContext
+2026-02-15 15:19:25 - Root WebApplicationContext: initialization completed in 5042 ms
+2026-02-15 15:19:26 - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.11.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/23.0.2+7-58"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@47e871c6, com.mongodb.Jep395RecordCodecProvider@2f1be3e2, com.mongodb.KotlinCodecProvider@15ac08e4]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2026-02-15 15:19:26 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=27, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=88346300}
+2026-02-15 15:19:27 - Filter 'jwtAuthenticationFilter' configured for use
+2026-02-15 15:19:27 - LiveReload server is running on port 35729
+2026-02-15 15:19:29 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7d386c8e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2ca2cf73, org.springframework.security.web.context.SecurityContextHolderFilter@742d6b0a, org.springframework.security.web.header.HeaderWriterFilter@75f7a4d7, org.springframework.web.filter.CorsFilter@5e56dde7, org.springframework.security.web.authentication.logout.LogoutFilter@55e4549d, com.medtrack.security.JwtAuthenticationFilter@211024f0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@14017b3b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7875af30, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@79f40fc7, org.springframework.security.web.session.SessionManagementFilter@1c2a29b7, org.springframework.security.web.access.ExceptionTranslationFilter@51eb8c3b, org.springframework.security.web.access.intercept.AuthorizationFilter@65b69fad]
+2026-02-15 15:19:30 - Tomcat started on port 8080 (http) with context path ''
+2026-02-15 15:19:30 - Started MedtrackApplication in 11.277 seconds (process running for 12.671)
+2026-02-15 15:19:30 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-15 15:19:30 - Initializing Servlet 'dispatcherServlet'
+2026-02-15 15:19:30 - Completed initialization in 3 ms
+2026-02-15 15:19:30 - Securing GET /
+2026-02-15 15:19:30 - Set SecurityContextHolder to anonymous SecurityContext
+2026-02-15 15:19:30 - Cache miss for REQUEST dispatch to '/' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2026-02-15 15:19:30 - Pre-authenticated entry point called. Rejecting access
+2026-02-15 15:19:30 - Securing GET /error
+2026-02-15 15:19:30 - Set SecurityContextHolder to anonymous SecurityContext
+2026-02-15 15:19:30 - Pre-authenticated entry point called. Rejecting access
+2026-02-15 15:19:49 - Securing GET /
+2026-02-15 15:19:49 - Set SecurityContextHolder to anonymous SecurityContext
+2026-02-15 15:19:49 - Pre-authenticated entry point called. Rejecting access
+2026-02-15 15:19:49 - Securing GET /error
+2026-02-15 15:19:49 - Set SecurityContextHolder to anonymous SecurityContext
+2026-02-15 15:19:49 - Pre-authenticated entry point called. Rejecting access
+2026-02-15 15:20:08 - Securing OPTIONS /api/patient/dashboard
+2026-02-15 15:20:08 - Securing OPTIONS /api/patient/reminders
+2026-02-15 15:20:08 - Securing OPTIONS /api/patient/notifications
+2026-02-15 15:20:08 - Securing OPTIONS /api/patient/dashboard
+2026-02-15 15:20:08 - Securing OPTIONS /api/patient/reminders
+2026-02-15 15:20:08 - Securing OPTIONS /api/patient/notifications
+2026-02-15 15:20:08 - Securing GET /api/patient/notifications
+2026-02-15 15:20:08 - Securing GET /api/patient/dashboard
+2026-02-15 15:20:08 - Securing GET /api/patient/reminders
+2026-02-15 15:20:09 - Secured GET /api/patient/dashboard
+2026-02-15 15:20:09 - Secured GET /api/patient/notifications
+2026-02-15 15:20:09 - Secured GET /api/patient/reminders
+2026-02-15 15:20:09 - Securing GET /api/patient/reminders
+2026-02-15 15:20:09 - Securing GET /api/patient/notifications
+2026-02-15 15:20:09 - Secured GET /api/patient/reminders
+2026-02-15 15:20:09 - Secured GET /api/patient/notifications
+2026-02-15 15:20:09 - Securing GET /api/patient/dashboard
+2026-02-15 15:20:09 - Secured GET /api/patient/dashboard
+2026-02-15 15:20:42 - Securing OPTIONS /api/auth/login
+2026-02-15 15:20:42 - Securing POST /api/auth/login
+2026-02-15 15:20:42 - Set SecurityContextHolder to anonymous SecurityContext
+2026-02-15 15:20:42 - Secured POST /api/auth/login
+2026-02-15 15:20:42 - Authenticated user
+2026-02-15 15:20:42 - Securing OPTIONS /api/patient/dashboard
+2026-02-15 15:20:42 - Securing OPTIONS /api/patient/reminders
+2026-02-15 15:20:42 - Securing OPTIONS /api/patient/notifications
+2026-02-15 15:20:42 - Securing OPTIONS /api/patient/dashboard
+2026-02-15 15:20:42 - Securing OPTIONS /api/patient/reminders
+2026-02-15 15:20:42 - Securing OPTIONS /api/patient/notifications
+2026-02-15 15:20:42 - Securing GET /api/patient/notifications
+2026-02-15 15:20:42 - Securing GET /api/patient/dashboard
+2026-02-15 15:20:42 - Securing GET /api/patient/reminders
+2026-02-15 15:20:42 - Secured GET /api/patient/dashboard
+2026-02-15 15:20:42 - Secured GET /api/patient/notifications
+2026-02-15 15:20:42 - Secured GET /api/patient/reminders
+2026-02-15 15:20:42 - Securing GET /api/patient/reminders
+2026-02-15 15:20:42 - Securing GET /api/patient/notifications
+2026-02-15 15:20:42 - Secured GET /api/patient/notifications
+2026-02-15 15:20:42 - Secured GET /api/patient/reminders
+2026-02-15 15:20:42 - Securing GET /api/patient/dashboard
+2026-02-15 15:20:42 - Secured GET /api/patient/dashboard
+2026-02-15 15:21:12 - Securing OPTIONS /api/patient/dashboard
+2026-02-15 15:21:12 - Securing OPTIONS /api/patient/reminders
+2026-02-15 15:21:12 - Securing OPTIONS /api/patient/notifications
+2026-02-15 15:21:12 - Securing GET /api/patient/reminders
+2026-02-15 15:21:12 - Securing GET /api/patient/notifications
+2026-02-15 15:21:12 - Securing GET /api/patient/dashboard
+2026-02-15 15:21:12 - Secured GET /api/patient/reminders
+2026-02-15 15:21:12 - Secured GET /api/patient/dashboard
+2026-02-15 15:21:12 - Secured GET /api/patient/notifications
+2026-02-15 15:21:42 - Securing OPTIONS /api/patient/dashboard
+2026-02-15 15:21:42 - Securing OPTIONS /api/patient/notifications
+2026-02-15 15:21:42 - Securing OPTIONS /api/patient/reminders
+2026-02-15 15:21:42 - Securing GET /api/patient/reminders
+2026-02-15 15:21:42 - Securing GET /api/patient/dashboard
+2026-02-15 15:21:42 - Securing GET /api/patient/notifications
+2026-02-15 15:21:42 - Secured GET /api/patient/reminders
+2026-02-15 15:21:42 - Secured GET /api/patient/notifications
+2026-02-15 15:21:42 - Secured GET /api/patient/dashboard
+2026-02-15 15:22:12 - Securing OPTIONS /api/patient/dashboard
+2026-02-15 15:22:12 - Securing OPTIONS /api/patient/reminders
+2026-02-15 15:22:12 - Securing OPTIONS /api/patient/notifications
+2026-02-15 15:22:12 - Securing GET /api/patient/reminders
+2026-02-15 15:22:12 - Securing GET /api/patient/dashboard
+2026-02-15 15:22:12 - Securing GET /api/patient/notifications
+2026-02-15 15:22:12 - Secured GET /api/patient/reminders
+2026-02-15 15:22:12 - Secured GET /api/patient/notifications
+2026-02-15 15:22:12 - Secured GET /api/patient/dashboard
+2026-02-15 15:22:42 - Securing OPTIONS /api/patient/dashboard
+2026-02-15 15:22:42 - Securing OPTIONS /api/patient/reminders
+2026-02-15 15:22:42 - Securing OPTIONS /api/patient/notifications
+2026-02-15 15:22:42 - Securing GET /api/patient/notifications
+2026-02-15 15:22:42 - Securing GET /api/patient/dashboard
+2026-02-15 15:22:42 - Securing GET /api/patient/reminders
+2026-02-15 15:22:42 - Secured GET /api/patient/notifications
+2026-02-15 15:22:42 - Secured GET /api/patient/dashboard
+2026-02-15 15:22:42 - Secured GET /api/patient/reminders
+2026-02-15 15:25:05 - Securing OPTIONS /api/patient/dashboard
+2026-02-15 15:25:05 - Securing OPTIONS /api/patient/notifications
+2026-02-15 15:25:05 - Securing OPTIONS /api/patient/reminders
+2026-02-15 15:25:05 - Securing GET /api/patient/dashboard
+2026-02-15 15:25:05 - Securing GET /api/patient/notifications
+2026-02-15 15:25:05 - Securing GET /api/patient/reminders
+2026-02-15 15:25:05 - Secured GET /api/patient/notifications
+2026-02-15 15:25:05 - Secured GET /api/patient/reminders
+2026-02-15 15:25:05 - Secured GET /api/patient/dashboard
+2026-02-15 15:44:12 - Securing OPTIONS /api/patient/dashboard
+2026-02-15 15:44:12 - Securing GET /api/patient/dashboard
+2026-02-15 15:44:12 - Securing OPTIONS /api/patient/reminders
+2026-02-15 15:44:12 - Securing OPTIONS /api/patient/notifications
+2026-02-15 15:44:12 - Securing GET /api/patient/reminders
+2026-02-15 15:44:12 - Securing GET /api/patient/notifications
+2026-02-15 15:44:12 - Secured GET /api/patient/reminders
+2026-02-15 15:44:12 - Secured GET /api/patient/notifications
+2026-02-15 15:44:12 - Secured GET /api/patient/dashboard
+2026-02-15 15:44:22 - Securing OPTIONS /api/auth/login
+2026-02-15 15:44:22 - Securing POST /api/auth/login
+2026-02-15 15:44:22 - Set SecurityContextHolder to anonymous SecurityContext
+2026-02-15 15:44:22 - Secured POST /api/auth/login
+2026-02-15 15:44:22 - Authenticated user
+2026-02-15 15:44:23 - Securing OPTIONS /api/admin/dashboard
+2026-02-15 15:44:23 - Securing OPTIONS /api/admin/dashboard
+2026-02-15 15:44:23 - Securing GET /api/admin/dashboard
+2026-02-15 15:44:23 - Secured GET /api/admin/dashboard
+2026-02-15 15:44:23 - Securing GET /api/admin/dashboard
+2026-02-15 15:44:23 - Secured GET /api/admin/dashboard
+2026-02-15 15:44:46 - Securing OPTIONS /api/admin/users
+2026-02-15 15:44:46 - Securing OPTIONS /api/admin/reminders
+2026-02-15 15:44:46 - Securing OPTIONS /api/admin/prescriptions
+2026-02-15 15:44:46 - Securing OPTIONS /api/admin/refill-requests
+2026-02-15 15:44:46 - Securing OPTIONS /api/admin/inventory
+2026-02-15 15:44:46 - Securing OPTIONS /api/admin/dose-logs
+2026-02-15 15:44:46 - Securing OPTIONS /api/admin/notifications
+2026-02-15 15:44:46 - Securing GET /api/admin/reminders
+2026-02-15 15:44:46 - Securing GET /api/admin/inventory
+2026-02-15 15:44:46 - Securing GET /api/admin/refill-requests
+2026-02-15 15:44:46 - Securing GET /api/admin/prescriptions
+2026-02-15 15:44:46 - Securing GET /api/admin/users
+2026-02-15 15:44:46 - Securing GET /api/admin/dose-logs
+2026-02-15 15:44:46 - Secured GET /api/admin/inventory
+2026-02-15 15:44:46 - Secured GET /api/admin/reminders
+2026-02-15 15:44:46 - Secured GET /api/admin/prescriptions
+2026-02-15 15:44:46 - Secured GET /api/admin/refill-requests
+2026-02-15 15:44:46 - Secured GET /api/admin/users
+2026-02-15 15:44:46 - Secured GET /api/admin/dose-logs
+2026-02-15 15:44:46 - Securing GET /api/admin/notifications
+2026-02-15 15:44:47 - Secured GET /api/admin/notifications
+2026-02-15 15:44:47 - Securing GET /api/admin/inventory
+2026-02-15 15:44:47 - Securing GET /api/admin/reminders
+2026-02-15 15:44:47 - Secured GET /api/admin/inventory
+2026-02-15 15:44:47 - Securing GET /api/admin/prescriptions
+2026-02-15 15:44:47 - Secured GET /api/admin/reminders
+2026-02-15 15:44:47 - Secured GET /api/admin/prescriptions
+2026-02-15 15:44:47 - Securing GET /api/admin/refill-requests
+2026-02-15 15:44:47 - Secured GET /api/admin/refill-requests
+2026-02-15 15:44:47 - Securing GET /api/admin/users
+2026-02-15 15:44:47 - Secured GET /api/admin/users
+2026-02-15 15:44:47 - Securing GET /api/admin/notifications
+2026-02-15 15:44:47 - Secured GET /api/admin/notifications
+2026-02-15 15:44:47 - Securing GET /api/admin/dose-logs
+2026-02-15 15:44:47 - Secured GET /api/admin/dose-logs
+2026-02-15 15:45:39 - Securing OPTIONS /api/admin/users/698f8bcbbd34f115349b4b8c
+2026-02-15 15:45:39 - Securing PUT /api/admin/users/698f8bcbbd34f115349b4b8c
+2026-02-15 15:45:39 - Secured PUT /api/admin/users/698f8bcbbd34f115349b4b8c
+2026-02-15 15:45:40 - Securing OPTIONS /api/admin/users
+2026-02-15 15:45:40 - Securing OPTIONS /api/admin/reminders
+2026-02-15 15:45:40 - Securing OPTIONS /api/admin/prescriptions
+2026-02-15 15:45:40 - Securing OPTIONS /api/admin/inventory
+2026-02-15 15:45:40 - Securing OPTIONS /api/admin/refill-requests
+2026-02-15 15:45:40 - Securing GET /api/admin/users
+2026-02-15 15:45:40 - Securing GET /api/admin/inventory
+2026-02-15 15:45:40 - Securing GET /api/admin/prescriptions
+2026-02-15 15:45:40 - Securing GET /api/admin/reminders
+2026-02-15 15:45:40 - Securing GET /api/admin/refill-requests
+2026-02-15 15:45:40 - Securing OPTIONS /api/admin/dose-logs
+2026-02-15 15:45:40 - Securing OPTIONS /api/admin/notifications
+2026-02-15 15:45:40 - Secured GET /api/admin/users
+2026-02-15 15:45:40 - Secured GET /api/admin/inventory
+2026-02-15 15:45:40 - Secured GET /api/admin/prescriptions
+2026-02-15 15:45:40 - Secured GET /api/admin/reminders
+2026-02-15 15:45:40 - Securing GET /api/admin/dose-logs
+2026-02-15 15:45:40 - Secured GET /api/admin/refill-requests
+2026-02-15 15:45:40 - Securing GET /api/admin/notifications
+2026-02-15 15:45:40 - Secured GET /api/admin/dose-logs
+2026-02-15 15:45:40 - Secured GET /api/admin/notifications
+2026-02-15 15:45:52 - Securing OPTIONS /api/admin/dashboard
+2026-02-15 15:45:52 - Securing OPTIONS /api/admin/dashboard
+2026-02-15 15:45:52 - Securing GET /api/admin/dashboard
+2026-02-15 15:45:52 - Secured GET /api/admin/dashboard
+2026-02-15 15:45:52 - Securing GET /api/admin/dashboard
+2026-02-15 15:45:52 - Secured GET /api/admin/dashboard
+2026-02-15 15:45:56 - Securing OPTIONS /api/admin/users
+2026-02-15 15:45:56 - Securing OPTIONS /api/admin/prescriptions
+2026-02-15 15:45:56 - Securing OPTIONS /api/admin/inventory
+2026-02-15 15:45:56 - Securing OPTIONS /api/admin/reminders
+2026-02-15 15:45:56 - Securing OPTIONS /api/admin/dose-logs
+2026-02-15 15:45:56 - Securing OPTIONS /api/admin/refill-requests
+2026-02-15 15:45:56 - Securing GET /api/admin/users
+2026-02-15 15:45:56 - Securing GET /api/admin/reminders
+2026-02-15 15:45:56 - Securing GET /api/admin/dose-logs
+2026-02-15 15:45:56 - Securing GET /api/admin/inventory
+2026-02-15 15:45:56 - Securing GET /api/admin/refill-requests
+2026-02-15 15:45:56 - Securing GET /api/admin/prescriptions
+2026-02-15 15:45:56 - Secured GET /api/admin/reminders
+2026-02-15 15:45:56 - Secured GET /api/admin/dose-logs
+2026-02-15 15:45:56 - Secured GET /api/admin/users
+2026-02-15 15:45:56 - Secured GET /api/admin/refill-requests
+2026-02-15 15:45:56 - Secured GET /api/admin/inventory
+2026-02-15 15:45:56 - Secured GET /api/admin/prescriptions
+2026-02-15 15:45:56 - Securing OPTIONS /api/admin/notifications
+2026-02-15 15:45:56 - Securing OPTIONS /api/admin/notifications
+2026-02-15 15:45:56 - Securing GET /api/admin/reminders
+2026-02-15 15:45:56 - Securing GET /api/admin/refill-requests
+2026-02-15 15:45:56 - Securing GET /api/admin/notifications
+2026-02-15 15:45:56 - Secured GET /api/admin/refill-requests
+2026-02-15 15:45:56 - Secured GET /api/admin/reminders
+2026-02-15 15:45:56 - Secured GET /api/admin/notifications
+2026-02-15 15:45:57 - Securing GET /api/admin/inventory
+2026-02-15 15:45:57 - Secured GET /api/admin/inventory
+2026-02-15 15:45:57 - Securing GET /api/admin/prescriptions
+2026-02-15 15:45:57 - Secured GET /api/admin/prescriptions
+2026-02-15 15:45:57 - Securing GET /api/admin/users
+2026-02-15 15:45:57 - Securing GET /api/admin/dose-logs
+2026-02-15 15:45:57 - Secured GET /api/admin/dose-logs
+2026-02-15 15:45:57 - Secured GET /api/admin/users
+2026-02-15 15:45:57 - Securing GET /api/admin/notifications
+2026-02-15 15:45:57 - Secured GET /api/admin/notifications
+2026-02-15 15:45:58 - Securing OPTIONS /api/admin/dashboard
+2026-02-15 15:45:58 - Securing OPTIONS /api/admin/dashboard
+2026-02-15 15:45:58 - Securing GET /api/admin/dashboard
+2026-02-15 15:45:58 - Secured GET /api/admin/dashboard
+2026-02-15 15:45:59 - Securing GET /api/admin/dashboard
+2026-02-15 15:45:59 - Secured GET /api/admin/dashboard
+2026-02-15 15:46:00 - Securing OPTIONS /api/admin/profile
+2026-02-15 15:46:00 - Securing OPTIONS /api/admin/profile
+2026-02-15 15:46:00 - Securing GET /api/admin/profile
+2026-02-15 15:46:00 - Secured GET /api/admin/profile
+2026-02-15 15:46:00 - Securing GET /api/admin/profile
+2026-02-15 15:46:00 - Secured GET /api/admin/profile
+2026-02-15 15:46:15 - Securing OPTIONS /api/admin/profile
+2026-02-15 15:46:15 - Securing PUT /api/admin/profile
+2026-02-15 15:46:15 - Secured PUT /api/admin/profile
+2026-02-15 15:46:16 - Securing GET /api/admin/profile
+2026-02-15 15:46:16 - Secured GET /api/admin/profile
+2026-02-15 15:46:18 - Securing OPTIONS /api/admin/dashboard
+2026-02-15 15:46:18 - Securing OPTIONS /api/admin/dashboard
+2026-02-15 15:46:18 - Securing GET /api/admin/dashboard
+2026-02-15 15:46:18 - Secured GET /api/admin/dashboard
+2026-02-15 15:46:18 - Securing GET /api/admin/dashboard
+2026-02-15 15:46:18 - Secured GET /api/admin/dashboard
+2026-02-15 15:46:48 - Securing OPTIONS /api/admin/dashboard
+2026-02-15 15:46:48 - Securing GET /api/admin/dashboard
+2026-02-15 15:46:48 - Secured GET /api/admin/dashboard
+2026-02-15 15:47:18 - Securing OPTIONS /api/admin/dashboard
+2026-02-15 15:47:18 - Securing GET /api/admin/dashboard
+2026-02-15 15:47:18 - Secured GET /api/admin/dashboard
+2026-02-15 15:47:48 - Securing OPTIONS /api/admin/dashboard
+2026-02-15 15:47:48 - Securing GET /api/admin/dashboard
+2026-02-15 15:47:48 - Secured GET /api/admin/dashboard
+2026-02-15 15:48:18 - Securing OPTIONS /api/admin/dashboard
+2026-02-15 15:48:18 - Securing GET /api/admin/dashboard
+2026-02-15 15:48:18 - Secured GET /api/admin/dashboard
+2026-02-15 15:48:48 - Securing OPTIONS /api/admin/dashboard
+2026-02-15 15:48:48 - Securing GET /api/admin/dashboard
+2026-02-15 15:48:48 - Secured GET /api/admin/dashboard
+2026-02-15 15:49:18 - Securing OPTIONS /api/admin/dashboard
+2026-02-15 15:49:18 - Securing GET /api/admin/dashboard
+2026-02-15 15:49:18 - Secured GET /api/admin/dashboard
+2026-02-15 15:49:48 - Securing OPTIONS /api/admin/dashboard
+2026-02-15 15:49:48 - Securing GET /api/admin/dashboard
+2026-02-15 15:49:48 - Secured GET /api/admin/dashboard
+2026-02-15 15:50:49 - Securing OPTIONS /api/admin/dashboard
+2026-02-15 15:50:49 - Securing GET /api/admin/dashboard
+2026-02-15 15:50:49 - Secured GET /api/admin/dashboard
+2026-02-15 15:51:50 - Securing OPTIONS /api/admin/dashboard
+2026-02-15 15:51:50 - Securing GET /api/admin/dashboard
+2026-02-15 15:51:50 - Secured GET /api/admin/dashboard
+2026-02-15 15:52:51 - Securing OPTIONS /api/admin/dashboard
+2026-02-15 15:52:51 - Securing GET /api/admin/dashboard
+2026-02-15 15:52:51 - Secured GET /api/admin/dashboard
+2026-02-15 15:53:52 - Securing OPTIONS /api/admin/dashboard
+2026-02-15 15:53:52 - Securing GET /api/admin/dashboard
+2026-02-15 15:53:52 - Secured GET /api/admin/dashboard
+2026-02-15 16:14:53 - Securing OPTIONS /api/admin/dashboard
+2026-02-15 16:14:53 - Securing GET /api/admin/dashboard
+2026-02-15 16:14:53 - Secured GET /api/admin/dashboard

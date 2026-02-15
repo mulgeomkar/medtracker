@@ -1,0 +1,349 @@
+
+> medtrack-frontend@1.0.0 start
+> react-scripts start
+
+Starting the development server...
+
+Compiled successfully!
+
+You can now view medtrack-frontend in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://10.5.0.2:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Failed to compile.
+
+Module not found: Error: Can't resolve './pages/patient/Reminders' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'
+[1m[31mERROR[39m[22m in [1m./src/App.js[39m[22m [1m[32m22:0-57[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './pages/patient/Reminders' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Failed to compile.
+
+Module not found: Error: Can't resolve './pages/patient/Analytics' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'
+[1m[31mERROR[39m[22m in [1m./src/App.js[39m[22m [1m[32m23:0-57[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './pages/patient/Analytics' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Failed to compile.
+
+Module not found: Error: Can't resolve './pages/patient/Profile' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'
+[1m[31mERROR[39m[22m in [1m./src/App.js[39m[22m [1m[32m24:0-53[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './pages/patient/Profile' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Failed to compile.
+
+Module not found: Error: Can't resolve './pages/patient/Prescriptions' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'
+[1m[31mERROR[39m[22m in [1m./src/App.js[39m[22m [1m[32m21:0-65[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './pages/patient/Prescriptions' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Failed to compile.
+
+Module not found: Error: Can't resolve './pages/patient/Dashboard' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'
+[1m[31mERROR[39m[22m in [1m./src/App.js[39m[22m [1m[32m20:0-57[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './pages/patient/Dashboard' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Failed to compile.
+
+Module not found: Error: Can't resolve './pages/doctor/Dashboard' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'
+[1m[31mERROR[39m[22m in [1m./src/App.js[39m[22m [1m[32m27:0-55[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './pages/doctor/Dashboard' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Failed to compile.
+
+Module not found: Error: Can't resolve './pages/doctor/Patients' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'
+[1m[31mERROR[39m[22m in [1m./src/App.js[39m[22m [1m[32m28:0-53[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './pages/doctor/Patients' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Failed to compile.
+
+Module not found: Error: Can't resolve './pages/doctor/Prescriptions' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'
+[1m[31mERROR[39m[22m in [1m./src/App.js[39m[22m [1m[32m29:0-63[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './pages/doctor/Prescriptions' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Failed to compile.
+
+Module not found: Error: Can't resolve './pages/pharmacist/Dashboard' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'
+[1m[31mERROR[39m[22m in [1m./src/App.js[39m[22m [1m[32m34:0-63[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './pages/pharmacist/Dashboard' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Failed to compile.
+
+Module not found: Error: Can't resolve './pages/pharmacist/Inventory' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'
+[1m[31mERROR[39m[22m in [1m./src/App.js[39m[22m [1m[32m35:0-63[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './pages/pharmacist/Inventory' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Failed to compile.
+
+Module not found: Error: Can't resolve './pages/doctor/Profile' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'
+[1m[31mERROR[39m[22m in [1m./src/App.js[39m[22m [1m[32m31:0-51[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './pages/doctor/Profile' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Failed to compile.
+
+Module not found: Error: Can't resolve './pages/pharmacist/Profile' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'
+[1m[31mERROR[39m[22m in [1m./src/App.js[39m[22m [1m[32m37:0-59[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './pages/pharmacist/Profile' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Failed to compile.
+
+Module not found: Error: Can't resolve './pages/doctor/Analytics' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'
+[1m[31mERROR[39m[22m in [1m./src/App.js[39m[22m [1m[32m30:0-55[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './pages/doctor/Analytics' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Failed to compile.
+
+Module not found: Error: Can't resolve './pages/pharmacist/Analytics' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'
+[1m[31mERROR[39m[22m in [1m./src/App.js[39m[22m [1m[32m36:0-63[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './pages/pharmacist/Analytics' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Failed to compile.
+
+Module not found: Error: Can't resolve './pages/doctor/Profile' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'
+[1m[31mERROR[39m[22m in [1m./src/App.js[39m[22m [1m[32m31:0-51[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './pages/doctor/Profile' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Failed to compile.
+
+Module not found: Error: Can't resolve './pages/pharmacist/Profile' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'
+[1m[31mERROR[39m[22m in [1m./src/App.js[39m[22m [1m[32m37:0-59[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './pages/pharmacist/Profile' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Failed to compile.
+
+Module not found: Error: Can't resolve './pages/pharmacist/Dashboard' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'
+[1m[31mERROR[39m[22m in [1m./src/App.js[39m[22m [1m[32m34:0-63[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './pages/pharmacist/Dashboard' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve './pages/auth/ResetPassword' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'
+[1m[31mERROR[39m[22m in [1m./src/App.js[39m[22m [1m[32m15:0-55[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './pages/auth/ResetPassword' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Failed to compile.
+
+Module not found: Error: Can't resolve './pages/auth/Login' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'
+[1m[31mERROR[39m[22m in [1m./src/App.js[39m[22m [1m[32m12:0-39[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './pages/auth/Login' in 'C:\Users\HP\OneDrive\Desktop\medtrack-full\medtrack\frontend\src'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
