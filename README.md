@@ -1,6 +1,6 @@
 # MedTrack - Healthcare Management System
 
-A comprehensive full-stack healthcare management application built with React and Spring Boot, designed to streamline interactions between patients, doctors, and pharmacists.
+A comprehensive full-stack healthcare management application built with React and Spring Boot, designed to streamline interactions between patients, doctors, pharmacists and Admin.
 
 ## 🎯 Features
 
@@ -25,6 +25,13 @@ A comprehensive full-stack healthcare management application built with React an
 - **Analytics**: Inventory distribution and top medicines by stock
 - **Profile Management**: Update professional information
 
+### Admin Features
+- **User Management**: Approve or suspend users (patients, doctors, pharmacists)
+- **Dashboard**: System-wide usage statistics and recent activity
+- **Role Assignment**: Change user roles and permissions
+- **Configuration**: Manage application-wide settings (e.g. maintenance mode, default reminders)
+- **Audit Logs**: Review security and usage logs
+  
 ## 🏗️ Architecture
 
 ### Frontend
@@ -94,7 +101,7 @@ medtrack/
 - Node.js 16+ and npm
 - Java 17+
 - Maven 3.8+
-- MongoDB 4.4+ (or MySQL 8.0+)
+- MongoDB 4.4+
 
 ### Frontend Setup
 
@@ -136,12 +143,6 @@ spring.data.mongodb.port=27017
 spring.data.mongodb.database=medtrack
 ```
 
-For MySQL (alternative):
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/medtrack
-spring.datasource.username=root
-spring.datasource.password=yourpassword
-```
 
 3. Build the project:
 ```bash
@@ -154,87 +155,6 @@ mvn spring-boot:run
 ```
 
 The backend will run on `http://localhost:8080`
-
-## 🔑 API Endpoints
-
-### Authentication
-- `POST /api/auth/signup` - Register new user
-- `POST /api/auth/login` - User login
-- `PUT /api/auth/profile` - Update user profile
-
-### Patient Endpoints
-- `GET /api/patient/dashboard` - Get dashboard stats
-- `GET /api/patient/prescriptions` - Get all prescriptions
-- `GET /api/patient/reminders` - Get all reminders
-- `POST /api/patient/reminders` - Create reminder
-- `GET /api/patient/analytics` - Get health analytics
-- `GET /api/patient/profile` - Get patient profile
-
-### Doctor Endpoints
-- `GET /api/doctor/dashboard` - Get dashboard stats
-- `GET /api/doctor/patients` - Get all patients
-- `GET /api/doctor/prescriptions` - Get all prescriptions
-- `POST /api/doctor/prescriptions` - Create prescription
-- `GET /api/doctor/analytics` - Get practice analytics
-
-### Pharmacist Endpoints
-- `GET /api/pharmacist/dashboard` - Get dashboard stats
-- `GET /api/pharmacist/inventory` - Get inventory items
-- `POST /api/pharmacist/inventory` - Add inventory item
-- `GET /api/pharmacist/analytics` - Get inventory analytics
-
-## 🎨 Design System
-
-The application uses a consistent design system with:
-- **Primary Color**: Teal (#00d9a5)
-- **Background**: Dark blue (#0a0e27)
-- **Card Background**: Navy (#1a1f3a)
-- **Typography**: Inter font family
-- **Icons**: Lucide React
-
-## 🔐 Security
-
-- JWT-based authentication
-- Password encryption using BCrypt
-- Role-based access control (RBAC)
-- Protected API endpoints
-- CORS configuration
-
-## 🧪 Testing
-
-Frontend:
-```bash
-cd frontend
-npm test
-```
-
-Backend:
-```bash
-cd backend
-mvn test
-```
-
-## 📝 License
-
-This project is licensed under the MIT License.
-
-## 👥 Contributors
-
-Built with ❤️ for better healthcare management
-
-## 📧 Support
-
-For issues and questions, please create an issue in the repository.
-
-## 🚀 Deployment
-
-### Frontend Deployment
-- Build: `npm run build`
-- Deploy to Vercel, Netlify, or any static hosting
-
-### Backend Deployment
-- Package: `mvn package`
-- Deploy JAR to Heroku, AWS, or any Java hosting platform
 
 ## 🔄 Future Enhancements
 
