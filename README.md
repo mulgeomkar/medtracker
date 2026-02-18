@@ -1,4 +1,4 @@
-# MedTrack - Healthcare Management System
+# Online Medication and prescription Tracker
 
 A comprehensive full-stack healthcare management application built with React and Spring Boot, designed to streamline interactions between patients, doctors, pharmacists and Admin.
 
