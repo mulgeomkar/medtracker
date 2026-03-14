@@ -25,6 +25,13 @@ A comprehensive full-stack healthcare management application built with React an
 - **Analytics**: Inventory distribution and top medicines by stock
 - **Profile Management**: Update professional information
 
+### Admin Features
+- **User Management**: Approve or suspend users (patients, doctors, pharmacists)
+- **Dashboard**: System-wide usage statistics and recent activity
+- **Role Assignment**: Change user roles and permissions
+- **Configuration**: Manage application-wide settings (e.g. maintenance mode, default reminders)
+- **Audit Logs**: Review security and usage logs
+
 ## 🏗️ Architecture
 
 ### Frontend
@@ -214,27 +221,7 @@ cd backend
 mvn test
 ```
 
-## 📝 License
 
-This project is licensed under the MIT License.
-
-## 👥 Contributors
-
-Built with ❤️ for better healthcare management
-
-## 📧 Support
-
-For issues and questions, please create an issue in the repository.
-
-## 🚀 Deployment
-
-### Frontend Deployment
-- Build: `npm run build`
-- Deploy to Vercel, Netlify, or any static hosting
-
-### Backend Deployment
-- Package: `mvn package`
-- Deploy JAR to Heroku, AWS, or any Java hosting platform
 
 ## 🔄 Future Enhancements
 
