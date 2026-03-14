@@ -143,12 +143,7 @@ spring.data.mongodb.port=27017
 spring.data.mongodb.database=medtrack
 ```
 
-For MySQL (alternative):
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/medtrack
-spring.datasource.username=root
-spring.datasource.password=yourpassword
-```
+
 
 3. Build the project:
 ```bash
@@ -190,36 +185,10 @@ The backend will run on `http://localhost:8080`
 - `POST /api/pharmacist/inventory` - Add inventory item
 - `GET /api/pharmacist/analytics` - Get inventory analytics
 
-## 🎨 Design System
 
-The application uses a consistent design system with:
-- **Primary Color**: Teal (#00d9a5)
-- **Background**: Dark blue (#0a0e27)
-- **Card Background**: Navy (#1a1f3a)
-- **Typography**: Inter font family
-- **Icons**: Lucide React
 
-## 🔐 Security
 
-- JWT-based authentication
-- Password encryption using BCrypt
-- Role-based access control (RBAC)
-- Protected API endpoints
-- CORS configuration
 
-## 🧪 Testing
-
-Frontend:
-```bash
-cd frontend
-npm test
-```
-
-Backend:
-```bash
-cd backend
-mvn test
-```
 
 
 
