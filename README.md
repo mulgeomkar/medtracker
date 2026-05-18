@@ -2,7 +2,7 @@
 
 A comprehensive full-stack healthcare management application built with React and Spring Boot, designed to streamline interactions between patients, doctors, and pharmacists.
 
-## 🎯 Features
+## Features
 
 ### Patient Features
 - **Dashboard**: View health summary, active medications, and adherence rates
@@ -32,7 +32,7 @@ A comprehensive full-stack healthcare management application built with React an
 - **Configuration**: Manage application-wide settings (e.g. maintenance mode, default reminders)
 - **Audit Logs**: Review security and usage logs
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Frontend
 - **Framework**: React 18
@@ -51,7 +51,7 @@ A comprehensive full-stack healthcare management application built with React an
 - **API Style**: RESTful
 - **Build Tool**: Maven
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 medtrack/
@@ -94,7 +94,7 @@ medtrack/
     └── README.md
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -157,7 +157,7 @@ mvn spring-boot:run
 
 The backend will run on `http://localhost:8080`
 
-## 🔑 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /api/auth/signup` - Register new user
@@ -192,7 +192,7 @@ The backend will run on `http://localhost:8080`
 
 
 
-## 🔄 Future Enhancements
+## Future Enhancements
 
 - Real-time notifications
 - Telemedicine integration
